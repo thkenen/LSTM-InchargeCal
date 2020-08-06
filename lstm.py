@@ -29,7 +29,7 @@ def data_Upsample():
     data.to_excel("dataset2.xlsx")
 
 
-data_path = "D:/desktop/pywork/LsTM/dataset3.xlsx"
+data_path = "D:/desktop/pywork/LsTM/dataset.xlsx"
 data = pd.read_excel(data_path, index_col="Time")
 #print(data.info())
 #数据预处理 归一化
